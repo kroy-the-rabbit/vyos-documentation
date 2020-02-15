@@ -34,24 +34,6 @@ traffic to your system using this public key.
   wg01# run show wireguard pubkey
   u41jO3OF73Gq1WARMMFG7tOfk7+r8o8AzPxJ1FZRhzk=
 
-
-Generate named keypairs
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Named keypairs can be used on a interface basis, if configured.
-If multiple wireguard interfaces are being configured, each can have
-their own keypairs.
-
-The commands below will generate 2 keypairs, which are not related 
-to each other.
-
-.. code-block:: none
-
-  wg01:~$ configure
-  wg01# run generate wireguard named-keypairs KP01
-  wg01# run generate wireguard named-keypairs KP02
-
-
 Wireguard Interface configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
